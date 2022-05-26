@@ -3,15 +3,16 @@
 }
 
 .program-section {
-    padding-top: 70px;
+    padding-top: 50px;
     padding-bottom: 70px;
 
     @media screen and (min-width:768px) {
         padding-bottom: 170px;
+        padding-top: 60px;
     }
     @media screen and (min-width:1366px) {
         padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 130px;
     }
     background-color: $title-text-color;
 }
@@ -283,4 +284,8 @@ opacity: 0.5;
           background-size: contain;
         }
     }
+}
+
+.benefits {
+    @extend %section;
 }

@@ -100,10 +100,6 @@
         }
     }
 
-    // .guarantee-section {
-    //     padding-bottom: 70px;
-
-    //     @media screen and (min-width:1366px) {
-    //         padding-bottom: 130px;
-    //     }
-    // }
+    .guarantee-section {
+        @extend %section;
+    }

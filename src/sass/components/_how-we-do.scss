@@ -1,15 +1,10 @@
 .how-we-do__section {
     background-color: $primary-white-color;
-    padding-top: 70px;
-    padding-bottom: 40px;
+   @extend %section;
 
-    @media screen and (min-width: 768px) {
-        padding-bottom: 70px;
-    }
-    @media screen and (min-width: 1366px) {
-        padding-top: 130px;
-        padding-bottom: 130px;
-    }
+   @media screen and (max-width:767px) {
+       padding-bottom: 40px;
+   }
 }
 
 .how-we-do__container {

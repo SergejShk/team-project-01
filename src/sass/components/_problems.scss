@@ -1,4 +1,5 @@
 .problems {
+    @extend %section;
     width: 100%;
 
     background-image:linear-gradient(to bottom, $title-text-color 78%, $primary-white-color 78%);   
