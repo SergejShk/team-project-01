@@ -13,6 +13,7 @@
   }
 
   &__container {
+<<<<<<< HEAD
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -36,10 +37,11 @@
       padding-right: 183px;
       padding-left: 184px;
     }
+=======
+    @extend %container;
+>>>>>>> 0ac4095716a035641bec933fb017792a07884a3e
   }
 
-  
-  background-color: $primary-white-color;
   padding-top: 30px;
   padding-bottom: 50px;
   &__title-adapted::before,
