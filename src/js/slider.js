@@ -1,19 +1,31 @@
-$('.slider-for').slick({
+$('.slider-for-js').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: false,
+    arrows: true,
     fade: true,
-    asNavFor: '.slider-nav',
-    prevArrow: $('slick-prev-js'),
-    nextArrow: $('slick-next-js'),
+    asNavFor: '.slider-nav-js',
+    prevArrow: $('.slick-prev-js'),
+    nextArrow: $('.slick-next-js'),
   });
-  $('.slider-nav').slick({
+  $('.slider-nav-js').slick({
+    mobileFirst: true,
+    infinity: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    asNavFor: '.slider-for',
-    dots: true,
+    asNavFor: '.slider-for-js',
+    dots: false,
     centerMode: true,
     focusOnSelect: true,
-    arrows: false,
-    centerPadding: '0px'
+    centerPadding: '0px',
+    focusOnSelect: true,
+    centerlMode: true,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings:{
+          slidesToShow: 6,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   });
